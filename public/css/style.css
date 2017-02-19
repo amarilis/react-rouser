@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+    margin: 0;
+    color: #000;
+}
+
+a{
+    color: #077fcc;
+}
+
+.header-user{
+    float: right;
+    text-align: right;
+}
+.header-clear{
+    clear: both;
+}
+
+.header,
+.content,
+.footer{
+    margin: 10px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border: 1px solid #d2d2d2;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.tags{
+    padding: 10px 0;
+}
+.tag{
+    background: #f2f2f2;
+    margin-right: 5px;
+    padding: 10px;
+}
+
+.article{
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.articleUser,
+.addArticle{
+    text-align: right;
+}
+.articleUser a.articleUserLink,
+.articleUser span.articleUserLink{
+    display: inline-block;
+    height: 32px;
+    line-height: 32px;
+    text-decoration: none;
+    color: #4183c4;
+}
+.articleUser span.articleUserLink{
+    color: #333;
+}
+.articleUser a.articleUserLink:hover span{
+    text-decoration: underline;
+}
+.articleUser a.articleUserLink span,
+.articleUser span.articleUserLink span{
+    float: left;
+    padding-right: 10px;
+}
+.articleUser a.articleUserLink img,
+.articleUser span.articleUserLink img{
+    display: block;
+    float: right;
+}
+.articleRegistered{
+    text-align: right;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 10px;
+}
+.articleText{
+    text-align: justify;
+}
+
+.articleEdit{
+    display: inline-block;
+    font-size: 12px;
+    color: #333;
+}
+.articleEdit:hover{
+    text-decoration: none;
+}
+
+.searchFormInput{
+    width: 70%;
+    font-size: 16px;
+    height:20px;
+    line-height: 20px;
+    padding: 2px 4px;
+    border: 1px solid #ddd;
+    outline: none;
+}
+.searchFormInput:focus,
+.commentForm textarea:focus{
+    border-color: #4183c4;
+}
+
+.commentForm{
+    border: 1px solid #ddd;
+    margin: 20px;
+    padding: 10px;
+}
+
+.commentForm textarea{
+    width: 100%;
+    height: 100px;
+    outline: none;
+    border: 1px solid #ddd;
+    resize: none;
+    margin-top: 10px;
+    font-size: 16px;
+}
+.sendButtonOut{
+    text-align: right;
+}
+.sendButton{
+    border: 1px solid #333333;
+    padding: 5px 10px;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius: 4px;
+    background-color: #DDDDDD;
+    outline: none;
+    cursor: pointer;
+}
